@@ -3,11 +3,11 @@ import './App.css';
 import {useEffect, useState} from "react";
 
 const fetchApi1 = () => {
-    return fetch('http://api1.example.dev.kthcloud.com/hello').then(response => response.text())
+    return fetch('https://api1.example.dev.kthcloud.com/hello').then(response => response.text())
 }
 
 const fetchApi2 = () => {
-    return fetch('http://api2.example.dev.kthcloud.com/hello').then(response => response.text())
+    return fetch('https://api2.example.dev.kthcloud.com/hello').then(response => response.text())
 }
 
 
